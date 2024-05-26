@@ -1,0 +1,188 @@
+/* Reset some default styles and apply a basic font */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Optional: Add style for the button */
+.btn {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    /* Red color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #c0392b;
+    /* Darker red color on hover */
+}
+
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Hero section styling */
+#hero {
+    background-color: #3498db;
+    /* Blue color */
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #e74c3c;
+    /* Red color */
+    border-radius: 5px;
+}
+
+/* Features section styling */
+#features {
+    background-color: #ecf0f1;
+    /* Light gray color */
+    padding: 2em 0;
+    text-align: center;
+}
+
+.feature {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #bdc3c7;
+    /* Lighter gray border */
+    border-radius: 8px;
+}
+
+.feature i {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #3498db;
+    /* Blue color */
+}
+
+.feature h3 {
+    color: #333;
+}
+
+.feature p {
+    color: #666;
+}
+
+/* About Us section styling */
+#about {
+    background-color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+#about b {
+    font-size: 1.5em;
+    color: #e74c3c;
+    /* Red color */
+}
+
+#about p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Image section styling */
+#images {
+    background-color: #ecf0f1;
+    /* Light gray color */
+    padding: 2em 0;
+    text-align: center;
+}
+
+#images img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* Services section styling */
+#services {
+    background-color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.service {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #bdc3c7;
+    /* Lighter gray border */
+    border-radius: 8px;
+}
+
+.service h3 {
+    color: #333;
+}
+
+.service p {
+    color: #666;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
